@@ -22,6 +22,18 @@ Authorization - [Firebase Authentication](https://firebase.google.com/products/a
 Country code picker for mobile authentication - [FlagPhoneNumber](https://github.com/chronotruck/FlagPhoneNumber)<br/>
 SideMenu - [Side Menu](https://github.com/jonkykong/SideMenu)
 
+## Installation
+
+```
+1) Add your own GoogleInfo.plist - https://firebase.google.com/
+2) run - pod install
+3) Build and run
+```
+
+## Requirements
+- iOS 13.0+
+- Xcode 11+
+- Swift 5+
 
 ## TO-DO
 - [x] Speech recoder
@@ -42,3 +54,7 @@ SideMenu - [Side Menu](https://github.com/jonkykong/SideMenu)
 
 ## Screenshot’s
 <img src="https://drive.google.com/uc?export=view&id=1oIsUMxg1UC5LIZpycRERBBxmouodG1Ot" width="200" height="380"><img src="https://drive.google.com/uc?export=view&id=1n617kBBLsRACW2miNKHFGM_ZrUK3VMHO" width="200" height="380"><img src="https://drive.google.com/uc?export=view&id=1bgJdktn__VmAIeUD3LqwBqkW9ay5aBKL" width="200" height="380"><img src="https://drive.google.com/uc?export=view&id=1ClWtYfURiF67zWFJr7_37bOHKkR4301W" width="200" height="380">
+
+## License
+
+OCR app is available under the MIT license. See the LICENSE file for more info.

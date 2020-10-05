@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SPPermissions",
+        "repositoryURL": "https://github.com/ivanvorobei/SPPermissions",
+        "state": {
+          "branch": null,
+          "revision": "b62dcaed6c99894feb1244fba6f7b19be7cd60ec",
+          "version": "5.3.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

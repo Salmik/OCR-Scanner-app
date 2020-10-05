@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D845389F702D97E28BDD610 /* Pods_OCRApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81939F351F4B8F665F399BC /* Pods_OCRApp.framework */; };
+		63DE3470C049F4A265CCBB67 /* Pods_OCRApp_OCRAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB68D39C22B94232E582317 /* Pods_OCRApp_OCRAppUITests.framework */; };
+		AC01B0D224595335005F7F4D /* AdditionalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01B0D124595335005F7F4D /* AdditionalCollectionViewCell.swift */; };
+		AC01B0D424595C40005F7F4D /* GenerateQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01B0D324595C40005F7F4D /* GenerateQRViewController.swift */; };
+		AC01B0D624595C51005F7F4D /* GenerateBarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01B0D524595C51005F7F4D /* GenerateBarCodeViewController.swift */; };
+		AC01B0D824595C5A005F7F4D /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01B0D724595C5A005F7F4D /* ScanQRViewController.swift */; };
+		AC01B0DA24595C69005F7F4D /* ScanBarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01B0D924595C69005F7F4D /* ScanBarCodeViewController.swift */; };
+		AC1064EC24E90AC400C4A2BC /* AuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1064EB24E90AC400C4A2BC /* AuthResult.swift */; };
+		AC1064EE24E90B3600C4A2BC /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1064ED24E90B3600C4A2BC /* AuthError.swift */; };
+		AC1064F024E90B4700C4A2BC /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1064EF24E90B4700C4A2BC /* Validators.swift */; };
+		AC1B7EC6245842A10034FA10 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7EC5245842A10034FA10 /* OCRViewController.swift */; };
+		AC27D7122487897E00759F7E /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27D7112487897E00759F7E /* ImageScrollView.swift */; };
+		AC28278124AA3EF200A95E52 /* MyPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28278024AA3EF200A95E52 /* MyPopView.swift */; };
+		AC28278324AA484C00A95E52 /* UIView+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28278224AA484C00A95E52 /* UIView+Message.swift */; };
+		AC4453B3248F681800220FDD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4453B2248F681800220FDD /* ProfileViewController.swift */; };
+		AC46A5F124B049C0002E552F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13D7C2457DB53007C79C0 /* MainViewController.swift */; };
+		AC5DD60A245808F2002DBE85 /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DD609245808F2002DBE85 /* RateManager.swift */; };
+		AC5DD60D24580914002DBE85 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DD60C24580914002DBE85 /* Album.swift */; };
+		AC5DD60F24580939002DBE85 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DD60E24580939002DBE85 /* Utilities.swift */; };
+		AC5DD61424580C12002DBE85 /* MainImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DD61324580C12002DBE85 /* MainImageCollectionViewCell.swift */; };
+		AC5DD618245810DC002DBE85 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5DD617245810DC002DBE85 /* ImageDetailViewController.swift */; };
+		AC95C04624E421B3008657B7 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95C04524E421B3008657B7 /* CollectionView.swift */; };
+		AC9BB5FF248DE33100871981 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BB5FE248DE33100871981 /* Section.swift */; };
+		AC9BB601248DE41900871981 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BB600248DE41900871981 /* ExpandableHeaderView.swift */; };
+		AC9BB603248E085000871981 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BB602248E085000871981 /* QuestionsTableViewController.swift */; };
+		ACA13DD52459D03C00BA77A1 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA13DD42459D03C00BA77A1 /* SpeechViewController.swift */; };
+		ACC669D3245878F00015C8DD /* FunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC669D2245878EF0015C8DD /* FunctionsViewController.swift */; };
+		ACDAFAB824E4F52E00984DEB /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAFAB724E4F52E00984DEB /* MenuModel.swift */; };
+		ACDAFABD24E4F6AF00984DEB /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAFABC24E4F6AF00984DEB /* MenuTableViewController.swift */; };
+		ACDAFABF24E4F6D100984DEB /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAFABE24E4F6D100984DEB /* MenuTableViewCell.swift */; };
+		ACE9662E2490C01100C72373 /* SMSAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9662D2490C01100C72373 /* SMSAuthViewController.swift */; };
+		ACE966302490C7AA00C72373 /* CheckCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9662F2490C7AA00C72373 /* CheckCodeViewController.swift */; };
+		ACF13D792457DB53007C79C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13D782457DB53007C79C0 /* AppDelegate.swift */; };
+		ACF13D7B2457DB53007C79C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13D7A2457DB53007C79C0 /* SceneDelegate.swift */; };
+		ACF13D802457DB53007C79C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF13D7E2457DB53007C79C0 /* Main.storyboard */; };
+		ACF13D822457DB54007C79C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF13D812457DB54007C79C0 /* Assets.xcassets */; };
+		ACF13D852457DB54007C79C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF13D832457DB54007C79C0 /* LaunchScreen.storyboard */; };
+		ACF13D902457DB54007C79C0 /* OCRAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13D8F2457DB54007C79C0 /* OCRAppTests.swift */; };
+		ACF13D9B2457DB54007C79C0 /* OCRAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13D9A2457DB54007C79C0 /* OCRAppUITests.swift */; };
+		ACF77773248F2EC10067D258 /* MainAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF77772248F2EC10067D258 /* MainAuthViewController.swift */; };
+		ACF77775248F2ED20067D258 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF77774248F2ED20067D258 /* SignInViewController.swift */; };
+		ACF77777248F2EE30067D258 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF77776248F2EE30067D258 /* SignUpViewController.swift */; };
+		ACFDABD924DEAF2C00036801 /* CollectionVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABD824DEAF2C00036801 /* CollectionVIewExtension.swift */; };
+		ACFDABDB24DEB01400036801 /* ScannerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABDA24DEB01400036801 /* ScannerExtension.swift */; };
+		ACFDABDD24DEB0B400036801 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABDC24DEB0B400036801 /* ImagePicker.swift */; };
+		ACFDABDF24DEB13300036801 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABDE24DEB13300036801 /* SearchResults.swift */; };
+		ACFDABE124DEB15D00036801 /* NavigationCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABE024DEB15D00036801 /* NavigationCustomize.swift */; };
+		ACFDABE324DEB19C00036801 /* SaveMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABE224DEB19C00036801 /* SaveMethods.swift */; };
+		ACFDABE824DEB3E500036801 /* DetailScreenMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABE724DEB3E500036801 /* DetailScreenMethods.swift */; };
+		ACFDABEE24DEB58800036801 /* FutureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABED24DEB58800036801 /* FutureModel.swift */; };
+		ACFDABF024DEB73F00036801 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABEF24DEB73F00036801 /* NotificationExtension.swift */; };
+		ACFDABF224DEB7A100036801 /* SwiftEntryKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABF124DEB7A100036801 /* SwiftEntryKitExtension.swift */; };
+		ACFDABF424DEB7DE00036801 /* MethodsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDABF324DEB7DE00036801 /* MethodsExtension.swift */; };
+		B2CE8ADB4FFF84E54543AB03 /* Pods_OCRAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24FCD7BF095835D4D20AC46 /* Pods_OCRAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF13D8C2457DB54007C79C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF13D6D2457DB53007C79C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF13D742457DB53007C79C0;
+			remoteInfo = OCRApp;
+		};
+		ACF13D972457DB54007C79C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF13D6D2457DB53007C79C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF13D742457DB53007C79C0;
+			remoteInfo = OCRApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1410FE1E1102FBC11EBA4C78 /* Pods-OCRAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRAppTests.release.xcconfig"; path = "Target Support Files/Pods-OCRAppTests/Pods-OCRAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A91C24923EE4CE68BBF9EE0 /* Pods-OCRApp-OCRAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRApp-OCRAppUITests.release.xcconfig"; path = "Target Support Files/Pods-OCRApp-OCRAppUITests/Pods-OCRApp-OCRAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B66FFDA1770565E26B1DE5D /* Pods-OCRAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRAppTests.debug.xcconfig"; path = "Target Support Files/Pods-OCRAppTests/Pods-OCRAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB68D39C22B94232E582317 /* Pods_OCRApp_OCRAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRApp_OCRAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4CC10F9830653AA894CC08 /* Pods-OCRApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRApp.release.xcconfig"; path = "Target Support Files/Pods-OCRApp/Pods-OCRApp.release.xcconfig"; sourceTree = "<group>"; };
+		7CFBA2B9FD6590FB127F4F82 /* Pods-OCRApp-OCRAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRApp-OCRAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCRApp-OCRAppUITests/Pods-OCRApp-OCRAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88F7F7BAAA41E590B61AA02E /* Pods-OCRApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRApp.debug.xcconfig"; path = "Target Support Files/Pods-OCRApp/Pods-OCRApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AC01B0D124595335005F7F4D /* AdditionalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC01B0D324595C40005F7F4D /* GenerateQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRViewController.swift; sourceTree = "<group>"; };
+		AC01B0D524595C51005F7F4D /* GenerateBarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateBarCodeViewController.swift; sourceTree = "<group>"; };
+		AC01B0D724595C5A005F7F4D /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		AC01B0D924595C69005F7F4D /* ScanBarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBarCodeViewController.swift; sourceTree = "<group>"; };
+		AC1064EB24E90AC400C4A2BC /* AuthResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResult.swift; sourceTree = "<group>"; };
+		AC1064ED24E90B3600C4A2BC /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		AC1064EF24E90B4700C4A2BC /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		AC1B7EC5245842A10034FA10 /* OCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		AC27D7112487897E00759F7E /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		AC28278024AA3EF200A95E52 /* MyPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPopView.swift; sourceTree = "<group>"; };
+		AC28278224AA484C00A95E52 /* UIView+Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Message.swift"; sourceTree = "<group>"; };
+		AC4453B2248F681800220FDD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AC5DD609245808F2002DBE85 /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+		AC5DD60C24580914002DBE85 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		AC5DD60E24580939002DBE85 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AC5DD61324580C12002DBE85 /* MainImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC5DD617245810DC002DBE85 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		AC95C04524E421B3008657B7 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		AC9BB5FE248DE33100871981 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		AC9BB600248DE41900871981 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		AC9BB602248E085000871981 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		ACA13DD42459D03C00BA77A1 /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		ACC669D2245878EF0015C8DD /* FunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsViewController.swift; sourceTree = "<group>"; };
+		ACDAFAB724E4F52E00984DEB /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		ACDAFABC24E4F6AF00984DEB /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		ACDAFABE24E4F6D100984DEB /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		ACE9662D2490C01100C72373 /* SMSAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSAuthViewController.swift; sourceTree = "<group>"; };
+		ACE9662F2490C7AA00C72373 /* CheckCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCodeViewController.swift; sourceTree = "<group>"; };
+		ACF13D752457DB53007C79C0 /* OCRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF13D782457DB53007C79C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF13D7A2457DB53007C79C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACF13D7C2457DB53007C79C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ACF13D7F2457DB53007C79C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF13D812457DB54007C79C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF13D842457DB54007C79C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF13D862457DB54007C79C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF13D8B2457DB54007C79C0 /* OCRAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF13D8F2457DB54007C79C0 /* OCRAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRAppTests.swift; sourceTree = "<group>"; };
+		ACF13D912457DB54007C79C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF13D962457DB54007C79C0 /* OCRAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF13D9A2457DB54007C79C0 /* OCRAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRAppUITests.swift; sourceTree = "<group>"; };
+		ACF13D9C2457DB54007C79C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF77772248F2EC10067D258 /* MainAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAuthViewController.swift; sourceTree = "<group>"; };
+		ACF77774248F2ED20067D258 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ACF77776248F2EE30067D258 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ACFDABD824DEAF2C00036801 /* CollectionVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVIewExtension.swift; sourceTree = "<group>"; };
+		ACFDABDA24DEB01400036801 /* ScannerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerExtension.swift; sourceTree = "<group>"; };
+		ACFDABDC24DEB0B400036801 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		ACFDABDE24DEB13300036801 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		ACFDABE024DEB15D00036801 /* NavigationCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustomize.swift; sourceTree = "<group>"; };
+		ACFDABE224DEB19C00036801 /* SaveMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMethods.swift; sourceTree = "<group>"; };
+		ACFDABE724DEB3E500036801 /* DetailScreenMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenMethods.swift; sourceTree = "<group>"; };
+		ACFDABED24DEB58800036801 /* FutureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureModel.swift; sourceTree = "<group>"; };
+		ACFDABEF24DEB73F00036801 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		ACFDABF124DEB7A100036801 /* SwiftEntryKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEntryKitExtension.swift; sourceTree = "<group>"; };
+		ACFDABF324DEB7DE00036801 /* MethodsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodsExtension.swift; sourceTree = "<group>"; };
+		B81939F351F4B8F665F399BC /* Pods_OCRApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24FCD7BF095835D4D20AC46 /* Pods_OCRAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF13D722457DB53007C79C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D845389F702D97E28BDD610 /* Pods_OCRApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF13D882457DB54007C79C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CE8ADB4FFF84E54543AB03 /* Pods_OCRAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF13D932457DB54007C79C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DE3470C049F4A265CCBB67 /* Pods_OCRApp_OCRAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21850D498C675198BCDD4272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88F7F7BAAA41E590B61AA02E /* Pods-OCRApp.debug.xcconfig */,
+				6E4CC10F9830653AA894CC08 /* Pods-OCRApp.release.xcconfig */,
+				7CFBA2B9FD6590FB127F4F82 /* Pods-OCRApp-OCRAppUITests.debug.xcconfig */,
+				1A91C24923EE4CE68BBF9EE0 /* Pods-OCRApp-OCRAppUITests.release.xcconfig */,
+				2B66FFDA1770565E26B1DE5D /* Pods-OCRAppTests.debug.xcconfig */,
+				1410FE1E1102FBC11EBA4C78 /* Pods-OCRAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D83844D7E9FCFA72CDAB325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B81939F351F4B8F665F399BC /* Pods_OCRApp.framework */,
+				5CB68D39C22B94232E582317 /* Pods_OCRApp_OCRAppUITests.framework */,
+				D24FCD7BF095835D4D20AC46 /* Pods_OCRAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC1064EA24E90A8100C4A2BC /* Auth Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC1064EB24E90AC400C4A2BC /* AuthResult.swift */,
+				AC1064ED24E90B3600C4A2BC /* AuthError.swift */,
+				AC1064EF24E90B4700C4A2BC /* Validators.swift */,
+			);
+			path = "Auth Helpers";
+			sourceTree = "<group>";
+		};
+		AC4D5E0D24E50823003D0418 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAFABC24E4F6AF00984DEB /* MenuTableViewController.swift */,
+				ACDAFABE24E4F6D100984DEB /* MenuTableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		AC6CE2562458077B009C8A10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BB5FE248DE33100871981 /* Section.swift */,
+				ACDAFAB724E4F52E00984DEB /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6CE25724580783009C8A10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACF13D7E2457DB53007C79C0 /* Main.storyboard */,
+				ACF13D832457DB54007C79C0 /* LaunchScreen.storyboard */,
+				AC27D7112487897E00759F7E /* ImageScrollView.swift */,
+				AC28278024AA3EF200A95E52 /* MyPopView.swift */,
+				AC28278224AA484C00A95E52 /* UIView+Message.swift */,
+				AC9BB600248DE41900871981 /* ExpandableHeaderView.swift */,
+				AC5DD61324580C12002DBE85 /* MainImageCollectionViewCell.swift */,
+				AC01B0D124595335005F7F4D /* AdditionalCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6CE25824580789009C8A10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDABD724DEAEFC00036801 /* Main Screen */,
+				ACFDABE424DEB35300036801 /* Detail Screen */,
+				ACFDABE924DEB48000036801 /* OCR Screen */,
+				ACFDABEA24DEB4F400036801 /* Future TO-DO */,
+				ACFDABEB24DEB52400036801 /* Profile Screen */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC6CE25A24580797009C8A10 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF13D812457DB54007C79C0 /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		AC6CE25B245807B5009C8A10 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				ACF13D782457DB53007C79C0 /* AppDelegate.swift */,
+				ACF13D7A2457DB53007C79C0 /* SceneDelegate.swift */,
+				ACF13D862457DB54007C79C0 /* Info.plist */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		ACF13D6C2457DB53007C79C0 = {
+			isa = PBXGroup;
+			children = (
+				ACF13D772457DB53007C79C0 /* OCRApp */,
+				ACF13D8E2457DB54007C79C0 /* OCRAppTests */,
+				ACF13D992457DB54007C79C0 /* OCRAppUITests */,
+				ACF13D762457DB53007C79C0 /* Products */,
+				21850D498C675198BCDD4272 /* Pods */,
+				6D83844D7E9FCFA72CDAB325 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF13D762457DB53007C79C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF13D752457DB53007C79C0 /* OCRApp.app */,
+				ACF13D8B2457DB54007C79C0 /* OCRAppTests.xctest */,
+				ACF13D962457DB54007C79C0 /* OCRAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF13D772457DB53007C79C0 /* OCRApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CE25B245807B5009C8A10 /* Additional */,
+				AC6CE25A24580797009C8A10 /* Assests */,
+				ACF77771248F2E9F0067D258 /* Auth */,
+				ACFDABF724DEB85F00036801 /* Managers */,
+				AC6CE25824580789009C8A10 /* Controller */,
+				AC6CE25724580783009C8A10 /* View */,
+				AC6CE2562458077B009C8A10 /* Model */,
+			);
+			path = OCRApp;
+			sourceTree = "<group>";
+		};
+		ACF13D8E2457DB54007C79C0 /* OCRAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF13D8F2457DB54007C79C0 /* OCRAppTests.swift */,
+				ACF13D912457DB54007C79C0 /* Info.plist */,
+			);
+			path = OCRAppTests;
+			sourceTree = "<group>";
+		};
+		ACF13D992457DB54007C79C0 /* OCRAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF13D9A2457DB54007C79C0 /* OCRAppUITests.swift */,
+				ACF13D9C2457DB54007C79C0 /* Info.plist */,
+			);
+			path = OCRAppUITests;
+			sourceTree = "<group>";
+		};
+		ACF77771248F2E9F0067D258 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AC1064EA24E90A8100C4A2BC /* Auth Helpers */,
+				ACF77772248F2EC10067D258 /* MainAuthViewController.swift */,
+				ACF77774248F2ED20067D258 /* SignInViewController.swift */,
+				ACF77776248F2EE30067D258 /* SignUpViewController.swift */,
+				ACE9662D2490C01100C72373 /* SMSAuthViewController.swift */,
+				ACE9662F2490C7AA00C72373 /* CheckCodeViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		ACFDABD724DEAEFC00036801 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D5E0D24E50823003D0418 /* Menu */,
+				ACF13D7C2457DB53007C79C0 /* MainViewController.swift */,
+				ACFDABD824DEAF2C00036801 /* CollectionVIewExtension.swift */,
+				ACFDABDA24DEB01400036801 /* ScannerExtension.swift */,
+				ACFDABDC24DEB0B400036801 /* ImagePicker.swift */,
+				ACFDABDE24DEB13300036801 /* SearchResults.swift */,
+				ACFDABE024DEB15D00036801 /* NavigationCustomize.swift */,
+				ACFDABE224DEB19C00036801 /* SaveMethods.swift */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		ACFDABE424DEB35300036801 /* Detail Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DD617245810DC002DBE85 /* ImageDetailViewController.swift */,
+				ACFDABE724DEB3E500036801 /* DetailScreenMethods.swift */,
+			);
+			path = "Detail Screen";
+			sourceTree = "<group>";
+		};
+		ACFDABE924DEB48000036801 /* OCR Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7EC5245842A10034FA10 /* OCRViewController.swift */,
+			);
+			path = "OCR Screen";
+			sourceTree = "<group>";
+		};
+		ACFDABEA24DEB4F400036801 /* Future TO-DO */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDABEC24DEB56C00036801 /* Main Future Screen */,
+				AC9BB602248E085000871981 /* QuestionsTableViewController.swift */,
+				AC01B0D324595C40005F7F4D /* GenerateQRViewController.swift */,
+				AC01B0D524595C51005F7F4D /* GenerateBarCodeViewController.swift */,
+				AC01B0D724595C5A005F7F4D /* ScanQRViewController.swift */,
+				AC01B0D924595C69005F7F4D /* ScanBarCodeViewController.swift */,
+				ACA13DD42459D03C00BA77A1 /* SpeechViewController.swift */,
+			);
+			path = "Future TO-DO";
+			sourceTree = "<group>";
+		};
+		ACFDABEB24DEB52400036801 /* Profile Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC4453B2248F681800220FDD /* ProfileViewController.swift */,
+			);
+			path = "Profile Screen";
+			sourceTree = "<group>";
+		};
+		ACFDABEC24DEB56C00036801 /* Main Future Screen */ = {
+			isa = PBXGroup;
+			children = (
+				ACC669D2245878EF0015C8DD /* FunctionsViewController.swift */,
+				AC95C04524E421B3008657B7 /* CollectionView.swift */,
+				ACFDABED24DEB58800036801 /* FutureModel.swift */,
+				ACFDABEF24DEB73F00036801 /* NotificationExtension.swift */,
+				ACFDABF124DEB7A100036801 /* SwiftEntryKitExtension.swift */,
+				ACFDABF324DEB7DE00036801 /* MethodsExtension.swift */,
+			);
+			path = "Main Future Screen";
+			sourceTree = "<group>";
+		};
+		ACFDABF724DEB85F00036801 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AC5DD609245808F2002DBE85 /* RateManager.swift */,
+				AC5DD60C24580914002DBE85 /* Album.swift */,
+				AC5DD60E24580939002DBE85 /* Utilities.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF13D742457DB53007C79C0 /* OCRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF13D9F2457DB54007C79C0 /* Build configuration list for PBXNativeTarget "OCRApp" */;
+			buildPhases = (
+				E52C489C95668A1D183844BD /* [CP] Check Pods Manifest.lock */,
+				ACF13D712457DB53007C79C0 /* Sources */,
+				ACF13D722457DB53007C79C0 /* Frameworks */,
+				ACF13D732457DB53007C79C0 /* Resources */,
+				E4F2FACD313CAC2A140ADB10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRApp;
+			productName = OCRApp;
+			productReference = ACF13D752457DB53007C79C0 /* OCRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF13D8A2457DB54007C79C0 /* OCRAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF13DA22457DB54007C79C0 /* Build configuration list for PBXNativeTarget "OCRAppTests" */;
+			buildPhases = (
+				B8F30C7F27FBF79845874A0A /* [CP] Check Pods Manifest.lock */,
+				ACF13D872457DB54007C79C0 /* Sources */,
+				ACF13D882457DB54007C79C0 /* Frameworks */,
+				ACF13D892457DB54007C79C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF13D8D2457DB54007C79C0 /* PBXTargetDependency */,
+			);
+			name = OCRAppTests;
+			productName = OCRAppTests;
+			productReference = ACF13D8B2457DB54007C79C0 /* OCRAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF13D952457DB54007C79C0 /* OCRAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF13DA52457DB54007C79C0 /* Build configuration list for PBXNativeTarget "OCRAppUITests" */;
+			buildPhases = (
+				736BA94D583A0624783A69CC /* [CP] Check Pods Manifest.lock */,
+				ACF13D922457DB54007C79C0 /* Sources */,
+				ACF13D932457DB54007C79C0 /* Frameworks */,
+				ACF13D942457DB54007C79C0 /* Resources */,
+				DDCEDF319E90FEBE82F0BA3A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF13D982457DB54007C79C0 /* PBXTargetDependency */,
+			);
+			name = OCRAppUITests;
+			productName = OCRAppUITests;
+			productReference = ACF13D962457DB54007C79C0 /* OCRAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF13D6D2457DB53007C79C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Zhanibek Lukpanov";
+				TargetAttributes = {
+					ACF13D742457DB53007C79C0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					ACF13D8A2457DB54007C79C0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = ACF13D742457DB53007C79C0;
+					};
+					ACF13D952457DB54007C79C0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = ACF13D742457DB53007C79C0;
+					};
+				};
+			};
+			buildConfigurationList = ACF13D702457DB53007C79C0 /* Build configuration list for PBXProject "OCRApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF13D6C2457DB53007C79C0;
+			productRefGroup = ACF13D762457DB53007C79C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF13D742457DB53007C79C0 /* OCRApp */,
+				ACF13D8A2457DB54007C79C0 /* OCRAppTests */,
+				ACF13D952457DB54007C79C0 /* OCRAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF13D732457DB53007C79C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF13D852457DB54007C79C0 /* LaunchScreen.storyboard in Resources */,
+				ACF13D822457DB54007C79C0 /* Assets.xcassets in Resources */,
+				ACF13D802457DB53007C79C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF13D892457DB54007C79C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF13D942457DB54007C79C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		736BA94D583A0624783A69CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRApp-OCRAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F30C7F27FBF79845874A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCEDF319E90FEBE82F0BA3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRApp-OCRAppUITests/Pods-OCRApp-OCRAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRApp-OCRAppUITests/Pods-OCRApp-OCRAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRApp-OCRAppUITests/Pods-OCRApp-OCRAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F2FACD313CAC2A140ADB10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRApp/Pods-OCRApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCRApp/Pods-OCRApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCRApp/Pods-OCRApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52C489C95668A1D183844BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCRApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF13D712457DB53007C79C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF77775248F2ED20067D258 /* SignInViewController.swift in Sources */,
+				AC5DD60F24580939002DBE85 /* Utilities.swift in Sources */,
+				ACE9662E2490C01100C72373 /* SMSAuthViewController.swift in Sources */,
+				ACFDABDD24DEB0B400036801 /* ImagePicker.swift in Sources */,
+				AC01B0D824595C5A005F7F4D /* ScanQRViewController.swift in Sources */,
+				ACFDABDF24DEB13300036801 /* SearchResults.swift in Sources */,
+				AC95C04624E421B3008657B7 /* CollectionView.swift in Sources */,
+				AC1B7EC6245842A10034FA10 /* OCRViewController.swift in Sources */,
+				ACDAFABD24E4F6AF00984DEB /* MenuTableViewController.swift in Sources */,
+				ACC669D3245878F00015C8DD /* FunctionsViewController.swift in Sources */,
+				ACDAFABF24E4F6D100984DEB /* MenuTableViewCell.swift in Sources */,
+				AC4453B3248F681800220FDD /* ProfileViewController.swift in Sources */,
+				ACE966302490C7AA00C72373 /* CheckCodeViewController.swift in Sources */,
+				ACFDABF024DEB73F00036801 /* NotificationExtension.swift in Sources */,
+				ACF77777248F2EE30067D258 /* SignUpViewController.swift in Sources */,
+				ACFDABE824DEB3E500036801 /* DetailScreenMethods.swift in Sources */,
+				AC9BB601248DE41900871981 /* ExpandableHeaderView.swift in Sources */,
+				AC01B0DA24595C69005F7F4D /* ScanBarCodeViewController.swift in Sources */,
+				AC1064F024E90B4700C4A2BC /* Validators.swift in Sources */,
+				ACF13D792457DB53007C79C0 /* AppDelegate.swift in Sources */,
+				ACF13D7B2457DB53007C79C0 /* SceneDelegate.swift in Sources */,
+				ACDAFAB824E4F52E00984DEB /* MenuModel.swift in Sources */,
+				AC01B0D624595C51005F7F4D /* GenerateBarCodeViewController.swift in Sources */,
+				ACFDABF424DEB7DE00036801 /* MethodsExtension.swift in Sources */,
+				AC28278124AA3EF200A95E52 /* MyPopView.swift in Sources */,
+				AC1064EE24E90B3600C4A2BC /* AuthError.swift in Sources */,
+				AC9BB5FF248DE33100871981 /* Section.swift in Sources */,
+				ACFDABE324DEB19C00036801 /* SaveMethods.swift in Sources */,
+				AC9BB603248E085000871981 /* QuestionsTableViewController.swift in Sources */,
+				AC5DD60A245808F2002DBE85 /* RateManager.swift in Sources */,
+				AC46A5F124B049C0002E552F /* MainViewController.swift in Sources */,
+				AC27D7122487897E00759F7E /* ImageScrollView.swift in Sources */,
+				ACFDABDB24DEB01400036801 /* ScannerExtension.swift in Sources */,
+				AC28278324AA484C00A95E52 /* UIView+Message.swift in Sources */,
+				AC5DD61424580C12002DBE85 /* MainImageCollectionViewCell.swift in Sources */,
+				AC5DD618245810DC002DBE85 /* ImageDetailViewController.swift in Sources */,
+				ACFDABEE24DEB58800036801 /* FutureModel.swift in Sources */,
+				ACA13DD52459D03C00BA77A1 /* SpeechViewController.swift in Sources */,
+				ACFDABD924DEAF2C00036801 /* CollectionVIewExtension.swift in Sources */,
+				AC01B0D224595335005F7F4D /* AdditionalCollectionViewCell.swift in Sources */,
+				AC01B0D424595C40005F7F4D /* GenerateQRViewController.swift in Sources */,
+				ACF77773248F2EC10067D258 /* MainAuthViewController.swift in Sources */,
+				AC1064EC24E90AC400C4A2BC /* AuthResult.swift in Sources */,
+				ACFDABE124DEB15D00036801 /* NavigationCustomize.swift in Sources */,
+				AC5DD60D24580914002DBE85 /* Album.swift in Sources */,
+				ACFDABF224DEB7A100036801 /* SwiftEntryKitExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF13D872457DB54007C79C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF13D902457DB54007C79C0 /* OCRAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF13D922457DB54007C79C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF13D9B2457DB54007C79C0 /* OCRAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF13D8D2457DB54007C79C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF13D742457DB53007C79C0 /* OCRApp */;
+			targetProxy = ACF13D8C2457DB54007C79C0 /* PBXContainerItemProxy */;
+		};
+		ACF13D982457DB54007C79C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF13D742457DB53007C79C0 /* OCRApp */;
+			targetProxy = ACF13D972457DB54007C79C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF13D7E2457DB53007C79C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF13D7F2457DB53007C79C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF13D832457DB54007C79C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF13D842457DB54007C79C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF13D9D2457DB54007C79C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF13D9E2457DB54007C79C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF13DA02457DB54007C79C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F7F7BAAA41E590B61AA02E /* Pods-OCRApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD7RRNYGRD;
+				INFOPLIST_FILE = "$(SRCROOT)/OCRApp/Additional/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salmik.OCRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ACF13DA12457DB54007C79C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4CC10F9830653AA894CC08 /* Pods-OCRApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QD7RRNYGRD;
+				INFOPLIST_FILE = "$(SRCROOT)/OCRApp/Additional/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salmik.OCRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ACF13DA32457DB54007C79C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B66FFDA1770565E26B1DE5D /* Pods-OCRAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTHC5U3V42;
+				INFOPLIST_FILE = OCRAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salmik.OCRAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRApp.app/OCRApp";
+			};
+			name = Debug;
+		};
+		ACF13DA42457DB54007C79C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1410FE1E1102FBC11EBA4C78 /* Pods-OCRAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTHC5U3V42;
+				INFOPLIST_FILE = OCRAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salmik.OCRAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRApp.app/OCRApp";
+			};
+			name = Release;
+		};
+		ACF13DA62457DB54007C79C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFBA2B9FD6590FB127F4F82 /* Pods-OCRApp-OCRAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTHC5U3V42;
+				INFOPLIST_FILE = OCRAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salmik.OCRAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCRApp;
+			};
+			name = Debug;
+		};
+		ACF13DA72457DB54007C79C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A91C24923EE4CE68BBF9EE0 /* Pods-OCRApp-OCRAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTHC5U3V42;
+				INFOPLIST_FILE = OCRAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salmik.OCRAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF13D702457DB53007C79C0 /* Build configuration list for PBXProject "OCRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF13D9D2457DB54007C79C0 /* Debug */,
+				ACF13D9E2457DB54007C79C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF13D9F2457DB54007C79C0 /* Build configuration list for PBXNativeTarget "OCRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF13DA02457DB54007C79C0 /* Debug */,
+				ACF13DA12457DB54007C79C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF13DA22457DB54007C79C0 /* Build configuration list for PBXNativeTarget "OCRAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF13DA32457DB54007C79C0 /* Debug */,
+				ACF13DA42457DB54007C79C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF13DA52457DB54007C79C0 /* Build configuration list for PBXNativeTarget "OCRAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF13DA62457DB54007C79C0 /* Debug */,
+				ACF13DA72457DB54007C79C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF13D6D2457DB53007C79C0 /* Project object */;
+}
